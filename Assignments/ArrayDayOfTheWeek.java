@@ -9,11 +9,11 @@ package day2;
 
 import java.util.Scanner;
 
-public class Array_Day_Of_The_Week {
+public class ArrayDayOfTheWeek {
 
     public static void main(String[] args) {
 
-        Array_Day_Of_The_Week a=new Array_Day_Of_The_Week();
+        ArrayDayOfTheWeek a=new ArrayDayOfTheWeek();
         a.dayOfTheWeek();
 
     }

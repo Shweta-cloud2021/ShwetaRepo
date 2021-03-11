@@ -6,12 +6,13 @@ package day2;
         Example: Number of grades : 4 User enters: 50, 78, 69,55 Average : 63
         Highest: 78
         Lowest : 50*/
-
+//Calc of avg, min and max is good but way program written is not correct
+// avoid chaining
 import java.util.Scanner;
 
-public class Array_Grades_Average_Highest_Lowest {
+public class ArrayGradesAverageHighestLowest {
     public static void main(String[] args) {
-        Array_Grades_Average_Highest_Lowest a=new Array_Grades_Average_Highest_Lowest();
+        ArrayGradesAverageHighestLowest a=new ArrayGradesAverageHighestLowest();
         a.calculateGrades();
 
     }
